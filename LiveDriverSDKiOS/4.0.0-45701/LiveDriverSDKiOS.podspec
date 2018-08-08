@@ -73,13 +73,13 @@ LICENSE
 }
   s.homepage = 'http://image-metrics.com/'
   s.summary = 'LiveDriverSDKiOS framework'
-  s.source = { :http => 'http://nexus.apps.image-metrics.net/repository/pods-im-matryoshka/LiveDriverSDKiOS-4.0.0-45701+ad89d9a1389c.Matryoshka.zip'}
+  s.source = { :http => 'http://nexus.apps.image-metrics.net/repository/pods-im-matryoshka/LiveDriverSDKiOS-4.0.0-45701+ad89d9a1389c.MatryoshkaDemo.zip'}
 
   # Platform
   s.platform = :ios, '9.0'
 
   # Build Settings
-  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation', 'CoreVideo', 'CoreMedia', 'CoreImage', 'CoreGraphics', 'Accelerate', 'MobileCoreServices', 'OpenGLES', 'AVFoundation', 'AssetsLibrary', 'ImageIO'
+  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation', 'CoreVideo', 'CoreMedia', 'CoreImage', 'CoreGraphics', 'OpenAL', 'Accelerate', 'MobileCoreServices', 'OpenGLES', 'AVFoundation', 'AssetsLibrary', 'ImageIO'
 
   # File patterns
   s.vendored_frameworks = 'LiveDriverSDK.framework'
