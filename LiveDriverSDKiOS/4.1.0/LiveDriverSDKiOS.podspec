@@ -79,7 +79,7 @@ LICENSE
   s.platform = :ios, '9.0'
 
   # Build Settings
-  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation', 'CoreVideo', 'CoreMedia', 'CoreImage', 'CoreGraphics', 'Accelerate', 'MobileCoreServices', 'OpenGLES', 'AVFoundation', 'AssetsLibrary', 'ImageIO'
+  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation', 'CoreVideo', 'CoreMedia', 'CoreImage', 'CoreGraphics', 'OpenGLES', 'Accelerate', 'MobileCoreServices', 'AVFoundation', 'AssetsLibrary', 'ImageIO'
 
   # File patterns
   s.vendored_frameworks = 'LiveDriverSDK.framework'
